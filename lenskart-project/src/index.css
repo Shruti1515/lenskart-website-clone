@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Importing LK Futura in your CSS file */
+@font-face {
+    font-family: 'LK Futura';
+    src: url('/path-to-your-font/LKFutura.woff2') format('woff2'),
+         url('/path-to-your-font/LKFutura.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* You can also link to an external CDN or Google Fonts if it's available */
+  
